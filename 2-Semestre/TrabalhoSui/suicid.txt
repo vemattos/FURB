@@ -1,0 +1,3 @@
+Municipio com maior incidencia em homens: 420910 com 312 casos
+Municipio com maior incidencia em mulheres: 420240 com 90 casos
+Categoria de estado civil com maior incidencia: 1 com 168 casos
