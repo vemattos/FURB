@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <h1>Dogs House</h1>
+    </header>
+    <div class="card">
+        <h2 class="log">Login</h2>
+        <form id="formularioLogin">
+            <div>
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="button" id="login" onclick="login()">Login</button>
+        </form>
+        <div class="opcoes">
+            <button type="button" id="recover" onclick="recuperarSenha()">Recuperar Senha</button>
+            <input type="checkbox" id="remember">
+            <label for="remember">Lembrar-me</label>
+            <button id="cadastrar" class="cadastrar">Cadastrar</button>
+        </div>
+    </div>
+    <footer>
+        <p>Matheus Gamba de Oliveira - Vinicius Estrazulas Mattos</p>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>

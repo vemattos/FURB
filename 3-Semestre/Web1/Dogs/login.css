@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fae2a1;
+}
+
+header {
+    background-color: rgba(132, 23, 23, 0.755);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.card {
+    background-color: #fff;
+    max-width: 300px;
+    margin: 20px auto;
+    margin-top: 80px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.log {
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+    padding-right: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.opcoes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cadastrar {
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(132, 23, 23, 0.755);
+    color: #fff;
+}
